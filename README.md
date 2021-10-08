@@ -38,8 +38,7 @@ This tells your operating system to listen on all public IPs.
 
 ### Example Response:
 ```
-Recieved webhook: 02-Oct-2021 (18:04:46)
-
+Recieved webhook: 08-Oct-2021 (05:07:29)
 Webhook Body: 
 {
   "category": "asset_lifecycle",
@@ -59,22 +58,15 @@ Webhook Body:
   }
 }
 
+['1/3']
 Querying Device42 for Device matching ID: 1567 ...
-Match: dummy_device_01
+Response: 'dummy_device_01'
 
+['2/3']
 Querying Device42 for End User matching ID: 54 ...
-Match: Bobby Hill
+Response: 'Bobby Hill'
 
-Updating Device Custom Field: Assigned on device: dummy_device_01 with value: Bobby Hill
-
-{
-  "msg": [
-    "custom key pair values added or updated",
-    1567,
-    "dummy_device_01",
-    false,
-    false
-  ],
-  "code": 0
-}
+['3/3']
+Updating Device Custom Field: 'Assigned' on device: 'dummy_device_01' with value: 'Bobby Hill'
+Response: 'custom key pair values added or updated'
 ```
