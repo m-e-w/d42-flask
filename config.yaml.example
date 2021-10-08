@@ -1,0 +1,4 @@
+host: 'https://192.168.1.0'
+username: 'admin'
+password: 'adm!nd42'
+verify: False
